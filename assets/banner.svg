@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="240" viewBox="0 0 680 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="240" fill="url(#bg)"/>
+  <!-- 은은한 배경 원 -->
+  <circle cx="610" cy="-20" r="150" fill="#14B8A6" opacity="0.18"/>
+  <circle cx="470" cy="290" r="120" fill="#5EEAD4" opacity="0.07"/>
+
+  <!-- 글자 (왼쪽 아래는 디스코드 아바타 자리라 비워 둔다) -->
+  <text x="40" y="80" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="54" fill="#FFFFFF" letter-spacing="-1">linksort</text>
+  <text x="42" y="118" font-family="Malgun Gothic, sans-serif" font-weight="700" font-size="21" fill="#99F6E4">링크만 보내면 읽고, 정리하고, 저장해요</text>
+
+  <!-- 오른쪽 아래: 인스타 · 유튜브 · 웹 → 옵시디언 (로고와 같은 흰 선, 둥근 모서리) -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 바탕 원 -->
+    <g fill="#FFFFFF" fill-opacity="0.1" stroke="none">
+      <circle cx="324" cy="176" r="27"/>
+      <circle cx="390" cy="176" r="27"/>
+      <circle cx="456" cy="176" r="27"/>
+      <circle cx="590" cy="176" r="31" fill="#5EEAD4" fill-opacity="0.22"/>
+    </g>
+    <!-- 인스타: 카메라 -->
+    <rect x="311" y="163" width="26" height="26" rx="8"/>
+    <circle cx="324" cy="176" r="6"/>
+    <circle cx="332" cy="168" r="0.6" stroke-width="3"/>
+    <!-- 유튜브: 재생 -->
+    <rect x="376" y="166" width="28" height="20" rx="6"/>
+    <path d="M387 171 L395 176 L387 181 Z" fill="#FFFFFF"/>
+    <!-- 웹: 지구 -->
+    <circle cx="456" cy="176" r="13"/>
+    <ellipse cx="456" cy="176" rx="5.5" ry="13"/>
+    <line x1="443" y1="176" x2="469" y2="176"/>
+    <!-- 화살표 -->
+    <path d="M500 176 H536 M526 167 L537 176 L526 185" stroke="#5EEAD4" stroke-width="4"/>
+    <!-- 옵시디언: 보석 -->
+    <path d="M592 159 L603 171 L599 192 L582 195 L577 180 Z"/>
+    <path d="M592 159 L590 178 L599 192 M590 178 L577 180"/>
+  </g>
+</svg>

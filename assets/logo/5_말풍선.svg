@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- 메신저 말풍선 -->
+  <path d="M512 240 C342 240 212 350 212 495 C212 565 242 628 292 672 L262 780 L392 722 C429 736 470 742 512 742 C682 742 812 632 812 495 C812 350 682 240 512 240 Z" fill="#FFFFFF"/>
+  <!-- 링크 -->
+  <g transform="translate(505 495) rotate(-45)" fill="none" stroke="#6D28D9" stroke-width="38">
+    <rect x="-165" y="-52" width="200" height="104" rx="52"/>
+    <rect x="-35" y="-52" width="200" height="104" rx="52"/>
+  </g>
+  <!-- AI가 정리해 준다는 반짝임 -->
+  <path d="M728 214 Q741 277 804 290 Q741 303 728 366 Q715 303 652 290 Q715 277 728 214 Z" fill="#FDE047"/>
+</svg>

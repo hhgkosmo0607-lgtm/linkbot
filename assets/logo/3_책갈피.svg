@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#FF6B4A"/>
+  <!-- 책갈피 -->
+  <path d="M380 210 H644 a24 24 0 0 1 24 24 V812 L512 700 L356 812 V234 a24 24 0 0 1 24 -24 z" fill="#FFFFFF"/>
+  <!-- 책갈피에 새긴 링크 -->
+  <g transform="translate(512 455) rotate(-45)" fill="none" stroke="#FF6B4A" stroke-width="36">
+    <rect x="-150" y="-48" width="180" height="96" rx="48"/>
+    <rect x="-30" y="-48" width="180" height="96" rx="48"/>
+  </g>
+</svg>

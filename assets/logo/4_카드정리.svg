@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#0F766E"/>
+  <!-- 뒤에 쌓인 카드들 -->
+  <rect x="292" y="300" width="440" height="320" rx="40" fill="#5EEAD4" transform="rotate(-9 512 460)"/>
+  <rect x="292" y="320" width="440" height="320" rx="40" fill="#99F6E4" transform="rotate(5 512 480)"/>
+  <!-- 맨 앞 노트 카드 -->
+  <rect x="282" y="360" width="460" height="330" rx="40" fill="#FFFFFF"/>
+  <g transform="translate(400 450) rotate(-45)" fill="none" stroke="#0F766E" stroke-width="20">
+    <rect x="-70" y="-24" width="90" height="48" rx="24"/>
+    <rect x="-10" y="-24" width="90" height="48" rx="24"/>
+  </g>
+  <rect x="470" y="430" width="200" height="34" rx="17" fill="#0F766E"/>
+  <rect x="340" y="530" width="330" height="26" rx="13" fill="#CCE7E4"/>
+  <rect x="340" y="586" width="250" height="26" rx="13" fill="#CCE7E4"/>
+</svg>

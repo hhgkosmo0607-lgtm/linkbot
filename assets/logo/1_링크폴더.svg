@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#2F6FEB"/>
+  <!-- 폴더 -->
+  <path d="M262 400 h170 l50 50 h280 a40 40 0 0 1 40 40 v260 a40 40 0 0 1 -40 40 H262 a40 40 0 0 1 -40 -40 V440 a40 40 0 0 1 40 -40 z" fill="#FFFFFF"/>
+  <rect x="222" y="500" width="580" height="290" rx="40" fill="#DCE8FF"/>
+  <!-- 링크(체인)가 폴더로 들어가는 모습 -->
+  <g transform="translate(530 360) rotate(-45)" fill="none" stroke-linecap="round">
+    <g stroke="#2F6FEB" stroke-width="72">
+      <rect x="-175" y="-55" width="210" height="110" rx="55"/>
+      <rect x="-35" y="-55" width="210" height="110" rx="55"/>
+    </g>
+    <g stroke="#FFC93C" stroke-width="38">
+      <rect x="-175" y="-55" width="210" height="110" rx="55"/>
+      <rect x="-35" y="-55" width="210" height="110" rx="55"/>
+    </g>
+  </g>
+</svg>
